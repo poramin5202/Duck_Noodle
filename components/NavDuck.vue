@@ -2,7 +2,7 @@
     <div>
     <v-toolbar
       dark
-      src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+      src="/vbanner.jpg"
     > 
 
       <v-app-bar-nav-icon>  
