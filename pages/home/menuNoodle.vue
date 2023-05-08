@@ -4,8 +4,7 @@
         <v-container class="pb-0 pt-0">
             <v-row>
                 <v-col cols="12">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="gohome">
-                        Next </v-btn>
+             
                 </v-col>
 
                 

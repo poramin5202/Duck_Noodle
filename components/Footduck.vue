@@ -44,7 +44,7 @@
     animation: rotation 8s infinite linear;
     transform-origin: center;
     transform-style: preserve-3d;
-    animation: rotation 3s infinite linear; //ความเร็วในการหมุนภาพ
+    animation: rotation 5s infinite linear; //ความเร็วในการหมุนภาพ
   }
   @keyframes rotation {
     from {

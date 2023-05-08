@@ -15,7 +15,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap'},
+      { ref: 'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'},
+      { ref: 'stylesheet', href:'https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css'},
+    ],
+    
+    script:[
+      {src: "https://static.line-scdn.net/liff/edge/2/sdk.js"},
     ]
   },
 
