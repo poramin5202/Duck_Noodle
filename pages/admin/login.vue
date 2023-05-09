@@ -44,7 +44,7 @@
             <v-card>
               <v-card-title>Form Error</v-card-title>
                     <v-card-text>
-                      <h3>   กรุณาใส่ข้อมูลให้ครบ</h3>
+                      <h3> อย่ามั่วครับ อย่ามั่ว!</h3>
                    </v-card-text>
             </v-card>
           </v-dialog>
