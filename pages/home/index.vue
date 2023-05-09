@@ -3,7 +3,6 @@
         
         <NavDuck />
         <v-parallax
-       
       height="100%"
       src="https://st3.depositphotos.com/1337649/18929/v/600/depositphotos_189294426-stock-illustration-orange-background-with-line-with.jpg"
     >
@@ -57,10 +56,12 @@
                         <v-img 
                             :src="this.im"></v-img>
                     </center>
+                    
                 </v-col>
+                
             </v-row>
         </v-container>
-
+        
         </v-parallax>
         <Footduck />
     </div>
