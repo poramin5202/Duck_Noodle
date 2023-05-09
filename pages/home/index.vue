@@ -5,7 +5,7 @@
         <v-parallax
        
       height="100%"
-      src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+      src="https://st3.depositphotos.com/1337649/18929/v/600/depositphotos_189294426-stock-illustration-orange-background-with-line-with.jpg"
     >
         <v-container class="pb-0 pt-0">
             <v-row>

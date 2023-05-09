@@ -16,7 +16,7 @@ export default {
     ],
     link: [
      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'icon', type: 'image/png', href: '/logoDuck.png' } ,
+      { rel: 'icon', type: 'image/png', href: '/logo.png' } ,
       { rel: 'stylesheet', href:'https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap'},
       { ref: 'stylesheet', href:'https://fonts.googleapis.com/icon?family=Material+Icons'},
       { ref: 'stylesheet', href:'https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css'},
@@ -49,6 +49,15 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
+  manifest: {
+    name: 'My App',
+    lang: 'en',
+    short_name: 'My App',
+  },
+  icon: {
+    /* icon options */
+    iconSrc: '/logo.png',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
