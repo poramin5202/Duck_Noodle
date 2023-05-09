@@ -39,7 +39,5 @@
   padding: 12px !important;
   font-weight: bold !important;
  }
- .primary{
-  color: #900603
- }
+
 </style>
