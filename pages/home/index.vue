@@ -94,8 +94,4 @@ export default {
 
 }
 </script>
-<style lang="scss" scoped>
-.primary{
-    color: #900603
-   }
-   </style>
+

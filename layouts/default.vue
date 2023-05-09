@@ -23,7 +23,7 @@
     border-color: #900603 !important;
  }
  .text-primary{
-  color: #900603
+  color: #900603 !important;
   //color: #1A56BE
  }
  .text-title{
@@ -38,6 +38,7 @@
   height: auto !important;
   padding: 12px !important;
   font-weight: bold !important;
+  background-color: #900603 !important;
  }
 
 </style>
