@@ -9,7 +9,7 @@
         <v-container class="pb-0 pt-0">
             <v-row>
                 <v-col cols="12" class="text-center pt-5">
-                    <h1 class="text-primary text-decoration-underline"> Menu <v-icon>mdi-hand-wave</v-icon> </h1>
+                    <h1 class="text-primary text-decoration-underline">  Menu  <v-icon>mdi-menu-down</v-icon></h1>
 
                 </v-col>
                 <v-col cols="6">

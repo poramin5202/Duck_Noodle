@@ -8,10 +8,10 @@
      >
         <v-container class="pb-0 pt-0">
             <v-row>
-                <v-col cols="12">
-                    
-                </v-col>
+                <v-col cols="12" class="text-center pt-5">
+                    <h1 class="text-primary text-decoration-underline"> <v-icon>mdi-food</v-icon> เมนูกับข้าว  </h1>
 
+                </v-col>
                 
                 <v-col cols="6" class="pt-0 pb-0" v-for="(item, index) in items" :key="index">
 
