@@ -17,7 +17,7 @@
 
                     <v-card class="mx-auto my-12" max-width="100%">
                         <v-img height="150" :src=item.im ></v-img>
-                        <v-card-title>{{item.name}}</v-card-title>
+                        <v-card-title> {{item.name}}</v-card-title>
 
                         <v-card-text class="pb-0">
                             <v-row align="center" class="mx-0">
@@ -29,7 +29,7 @@
                             </v-row>
 
                             <div class="my-4 text-subtitle-1">
-                                ปกติ : {{price.rice}} พิเศษ : {{price.ricePlus}}
+                                ปกติ: {{price.rice}} พิเศษ: {{price.ricePlus}} 
                             </div>
                         </v-card-text>
                     </v-card>

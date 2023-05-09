@@ -29,10 +29,14 @@
                     <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark href="https://goo.gl/maps/Nm9dwcexhF6ehz729?coh=178571&entry=tt" >
                         <v-icon>mdi-map-marker</v-icon>  แผนที่ / Location  </v-btn>
                 </v-col>
+                <v-col cols="12">
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark href="https://www.facebook.com/profile.php?id=100048533964743" >
+                        <v-icon>mdi-facebook</v-icon>  Facebook  </v-btn>
+                </v-col>
                 
               
                 <v-col cols="12" class="text-center pt-5">
-                    <h3 class="text-primary text-decoration-underline"> รายละเอียด <v-icon>mdi-format-list-bulleted</v-icon>
+                    <h3 class="text-primary text-decoration-underline"><v-icon>mdi-details</v-icon> รายละเอียด 
                     </h3>
                 </v-col>
                 <v-col cols="12">

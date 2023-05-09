@@ -17,7 +17,7 @@
     </v-toolbar-title>
     <v-spacer></v-spacer>
     <v-img src="/LogoDuck.png" height="50" contain class="ml-2 rotating-image resized-image"
-    style="width: 50px; " @click="admin"></v-img>
+    style="width: 80px; " @click="admin"></v-img>
 
         </v-app-bar>
   </div>

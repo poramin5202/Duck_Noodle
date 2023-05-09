@@ -29,7 +29,7 @@
                             </v-row>
 
                             <div class="my-4 text-subtitle-1">
-                                ปกติ : {{price.noodle}} พิเศษ : {{price.noodlePlus}}
+                                ปกติ: {{price.noodle}} พิเศษ: {{price.noodlePlus}}
                             </div>
                         </v-card-text>
                     </v-card>

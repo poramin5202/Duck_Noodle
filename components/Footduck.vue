@@ -10,7 +10,7 @@
                 <img class="rotating-image resized-image" src="/favicon.ico" >
                 <img class="rotating-image resized-image" src="/v.png" alt="Vuetify.js">
                 </span>
-                <h6>By.Poramin Boonchusawad (Jom)</h6>       
+                <h6>By.Poramin Boonchusawad (version:1.2)</h6>       
             </v-col>
         </v-footer>  
     </div>
