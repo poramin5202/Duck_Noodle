@@ -14,7 +14,7 @@
 
                 </v-col>
                 <v-col cols="6">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="gomenu">
+                    <v-btn class="w100 my-btn mt-0 " style="background-color: red;" width="100%" rounded color="primary" dark @click="gomenu">
                         <v-icon>mdi-rice</v-icon>  ดูเมนูข้าว </v-btn>
                 </v-col>
                 <v-col cols="6">
