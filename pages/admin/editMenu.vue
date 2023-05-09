@@ -103,9 +103,9 @@
 <script>
 export default {
     methods: {
-        next() {
+       async next() {
             if(this.form.name!=null && this.form.im!=null){
-                this.$axios.patch(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/DataSum/${this.form.key}.json`, this.form)  
+               await this.$axios.patch(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/DataSum/${this.form.key}.json`, this.form)  
                 this.$router.go(0);
             }
         },

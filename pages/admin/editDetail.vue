@@ -80,9 +80,9 @@
 <script>
 export default {
     methods: {
-        next() {
+       async next() {
             
-                this.$axios.patch(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/Data.json`, this.data)  
+            await this.$axios.patch(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/Data.json`, this.data)  
                 this.$router.go(0);
             
         },

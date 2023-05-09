@@ -64,7 +64,7 @@
   export default { 
   methods:{
     next(){
-        if(this.form.id=="poramin" && this.form.pwd=="1111100000"){ 
+        if(this.form.id=="admin" && this.form.pwd=="1111100000"){ 
          this.$router.push("/admin/edit")
            console.log(55)
         }else{
