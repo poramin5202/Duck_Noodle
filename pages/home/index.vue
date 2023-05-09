@@ -14,23 +14,23 @@
 
                 </v-col>
                 <v-col cols="6">
-                    <v-btn class="w100 my-btn mt-0 " style="background-color: red;" width="100%" rounded color="primary" dark @click="gomenu">
+                    <v-btn class="w100 my-btn mt-0 "  width="100%" rounded color="#900603" dark @click="gomenu">
                         <v-icon>mdi-rice</v-icon>  ดูเมนูข้าว </v-btn>
                 </v-col>
                 <v-col cols="6">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="goNoodle">
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="#900603" dark @click="goNoodle">
                         <v-icon>mdi-noodles</v-icon>   ดูเมนูก๋วยเตี๋ยว  </v-btn>
                 </v-col>
                 <v-col cols="12">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="gosum">
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="#900603" dark @click="gosum">
                         <v-icon>mdi-food</v-icon> ดูเมนูกับข้าว </v-btn>
                 </v-col>
                 <v-col cols="12">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark href="https://goo.gl/maps/Nm9dwcexhF6ehz729?coh=178571&entry=tt" >
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="#900603" dark href="https://goo.gl/maps/Nm9dwcexhF6ehz729?coh=178571&entry=tt" >
                         <v-icon>mdi-map-marker</v-icon>  แผนที่ / Location  </v-btn>
                 </v-col>
                 <v-col cols="12">
-                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark href="https://www.facebook.com/profile.php?id=100048533964743" >
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="#900603"  href="https://www.facebook.com/profile.php?id=100048533964743" >
                         <v-icon>mdi-facebook</v-icon>  Facebook  </v-btn>
                 </v-col>
                 
