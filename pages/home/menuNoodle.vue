@@ -1,6 +1,11 @@
 <template>
     <div>
         <NavDuck />
+        <v-parallax
+       
+       height="100%"
+       src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+     >
         <v-container class="pb-0 pt-0">
             <v-row>
                 <v-col cols="12">
@@ -19,7 +24,7 @@
                                 <v-rating :value="4.5" color="amber" dense half-increments readonly size="14"></v-rating>
 
                                 <div class="grey--text ms-4">
-                                    4.5 (413)
+                                    
                                 </div>
                             </v-row>
 
@@ -32,6 +37,7 @@
                 </v-col>
             </v-row>
         </v-container>
+        </v-parallax>
         <Footduck />
     </div>
 </template>
@@ -41,7 +47,7 @@ export default {
     data() {
     return {
       items: null,
-      price:null
+      price:[]
     };
   },
     methods: {

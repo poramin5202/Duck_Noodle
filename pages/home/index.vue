@@ -1,6 +1,12 @@
 <template>
-    <div>
+    <div >
+        
         <NavDuck />
+        <v-parallax
+       
+      height="100%"
+      src="https://cdn.vuetifyjs.com/images/parallax/material2.jpg"
+    >
         <v-container class="pb-0 pt-0">
             <v-row>
                 <v-col cols="12" class="text-center pt-5">
@@ -9,12 +15,22 @@
                 </v-col>
                 <v-col cols="6">
                     <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="gomenu">
-                        ดูเมนูข้าว </v-btn>
+                        <v-icon>mdi-rice</v-icon>  ดูเมนูข้าว </v-btn>
                 </v-col>
                 <v-col cols="6">
                     <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="goNoodle">
-                        ดูเมนูก๋วยเตี๋ยว</v-btn>
+                        <v-icon>mdi-noodles</v-icon>   ดูเมนูก๋วยเตี๋ยว  </v-btn>
                 </v-col>
+                <v-col cols="12">
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark @click="gosum">
+                        <v-icon>mdi-food</v-icon> ดูเมนูกับข้าว </v-btn>
+                </v-col>
+                <v-col cols="12">
+                    <v-btn class="w100 my-btn mt-0 " width="100%" rounded color="primary" dark href="https://goo.gl/maps/Nm9dwcexhF6ehz729?coh=178571&entry=tt" >
+                        <v-icon>mdi-map-marker</v-icon>  แผนที่ / Location  </v-btn>
+                </v-col>
+                
+              
                 <v-col cols="12" class="text-center pt-5">
                     <h3 class="text-primary text-decoration-underline"> รายละเอียด <v-icon>mdi-format-list-bulleted</v-icon>
                     </h3>
@@ -25,7 +41,7 @@
                             รับทำข้าวกล่อง
                         </li>
                         <li>
-                            เบอร์โทร : 0861515202
+                            เบอร์โทร : 0861566572
                         </li>
                         <li>
                             เวลาเปิด-ปิด 07.00 น. - 15.00 น.
@@ -34,12 +50,14 @@
                 </v-col>
                 <v-col cols="12">
                     <center>
-                    <v-img max-height="150" max-width="250" 
-                        src="https://organic-village.co.th/wp-content/uploads/2021/11/duck2.jpeg"></v-img>
+                        <v-img 
+                            :src="this.im"></v-img>
                     </center>
                 </v-col>
             </v-row>
         </v-container>
+
+        </v-parallax>
         <Footduck />
     </div>
 </template>
@@ -51,6 +69,22 @@ export default {
         },
         goNoodle() {
             this.$router.push("/home/menuNoodle")
+        },
+        gosum() {
+            this.$router.push("/home/sumMenu")
+        }
+    },
+    async mounted() {
+
+        await this.$axios.get(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/Data.json`).then((res) => {
+            this.im = res.data.im
+            console.log(res.data)
+        })
+
+    },
+    data() {
+        return {
+            im: null
         }
     }
 

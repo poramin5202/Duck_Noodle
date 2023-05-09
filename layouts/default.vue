@@ -1,5 +1,7 @@
  <template>
+  
   <v-app >
+    
     <Nuxt />
   </v-app>
 
@@ -17,11 +19,12 @@
         font-weight: bold;
  }
  .v-application .primary{ //สี
-  background-color: #1A56BE !important;
-    border-color: #1A56BE !important;
+  background-color: #900603 !important;
+    border-color: #900603 !important;
  }
  .text-primary{
-  color: #1A56BE
+  color: #900603
+  //color: #1A56BE
  }
  .text-title{
   font-size: 20px;

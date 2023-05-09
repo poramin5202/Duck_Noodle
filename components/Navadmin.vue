@@ -26,10 +26,10 @@
   export default { 
   methods:{
       go(){
-        this.$router.push("/home")
+        this.$router.push("/admin/edit")
       },
       admin(){
-        this.$router.push("/admin/login")
+        this.$router.push("/home")
       }
     }
     

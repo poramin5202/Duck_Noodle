@@ -29,7 +29,7 @@
                             </v-row>
 
                             <div class="my-4 text-subtitle-1">
-                                ปกติ : {{price.rice}} พิเศษ : {{price.ricePlus}}
+                                ราคา : {{item.price}}
                             </div>
                         </v-card-text>
                     </v-card>
@@ -47,7 +47,6 @@ export default {
     data() {
     return {
       items: null,
-      price:[]
     };
   },
     methods: {
@@ -55,17 +54,13 @@ export default {
             this.$router.push("../home")
         }
     },
-   async mounted() {
+    mounted() {
         
-       await this.$axios.get(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/Datamenu.json`).then((res) => {
+        this.$axios.get(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/DataSum.json`).then((res) => {
             this.items=res.data 
         console.log(res.data)
         })
 
-        await this.$axios.get(`https://duck-noodle-default-rtdb.asia-southeast1.firebasedatabase.app/price.json`).then((res) => {
-            this.price=res.data 
-        console.log(res.data)
-        })
     }
 
 }
